@@ -111,12 +111,9 @@
 ├── <a href="./pom.xml" target="_blank">pom.xml</a>                                            (Acronym for Project Object Model)
 </pre>
 
-## Hosting on Heroku
-https://ecommerce-store.herokuapp.com/
-
 ## How to run
 
-1. Download and setup [IntelliJ IDEA Ultimate](https://www.jetbrains.com/idea/download/#section=windows).
+1. Download and setup Eclipse.
 2. Download and setup [MySQL Community Server](https://dev.mysql.com/downloads/mysql/) and [MySQL Workbench](https://dev.mysql.com/downloads/workbench/).
 3. Download this repository.
 4. MySQL Workbench -> Server -> Data Import -> Import from Self-Contained File -> ... -> Select Database to Import -> Choose Dump Structure and Data -> Start Import.
@@ -137,9 +134,3 @@ https://ecommerce-store.herokuapp.com/
 3. Set environment variables in <a href="./eCommerceWebsite/src/main/webapp/WEB-INF/web.xml" target="_blank">web.xml</a>
    for SMTP mail before run.
 
-| Variables     | Require | Description                                                                                | Default        |
-|---------------|---------|--------------------------------------------------------------------------------------------|----------------|
-| SMTP_HOST     | ❌       | The SMTP server to connect to                                                              | smtp.gmail.com |
-| SMTP_PORT     | ❌       | The SMTP server port to connect to, if the connect() method doesn't explicitly specify one | 25/587         |
-| SMTP_USER     | ✔       | Username for SMTP Authenticator                                                            |                |
-| SMTP_PASSWORD | ✔       | Password for SMTP Authenticator                                                            |                |
